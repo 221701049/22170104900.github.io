@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Form Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Form Builder</h1>
+        </header>
+        <main>
+            <aside class="toolbox">
+                <h2>Toolbox</h2>
+                <div class="tool" draggable="true" id="text-input">Text Input</div>
+                <div class="tool" draggable="true" id="textarea">Textarea</div>
+                <div class="tool" draggable="true" id="checkbox">Checkbox</div>
+                <div class="tool" draggable="true" id="radio">Radio Button</div>
+            </aside>
+            <section class="form-builder">
+                <h2>Form</h2>
+                <div class="dropzone" id="dropzone">
+                    Drag elements here to build your form
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
